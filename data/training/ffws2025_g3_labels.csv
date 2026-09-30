@@ -1,0 +1,41 @@
+match_id,time_s,squad,active,knocked,teams_remaining,players_remaining,previous_active,recent_active_drop,match_progress,worth_asking,label_confidence,notes
+ffws2025-g3,210,FX,4,0,12,48,4,0,0.186,0,high,Full-strength early-game state
+ffws2025-g3,210,BRU,4,0,12,48,4,0,0.186,0,high,Full-strength early-game state
+ffws2025-g3,210,FLCN,4,0,12,48,4,0,0.186,0,high,Full-strength early-game state
+ffws2025-g3,210,EVOS,4,0,12,48,4,0,0.186,0,high,Full-strength early-game state
+ffws2025-g3,344,FX,4,0,12,44,4,0,0.305,0,high,FX remains full strength; routine state
+ffws2025-g3,344,BRU,4,0,12,44,4,0,0.305,0,high,BRU remains full strength; routine state
+ffws2025-g3,344,FLCN,4,0,12,44,4,0,0.305,0,high,FLCN remains full strength; routine state
+ffws2025-g3,404,FX,4,0,12,45,4,0,0.358,0,high,Stable full-strength state
+ffws2025-g3,404,BRU,4,0,12,45,4,0,0.358,0,high,Stable full-strength state
+ffws2025-g3,404,HEV,4,0,12,45,4,0,0.358,0,high,Stable full-strength state
+ffws2025-g3,460,GOW,3,0,12,47,4,1,0.408,0,medium,GOW appears one player down but still has three active; routine single-player loss
+ffws2025-g3,460,FX,4,0,12,47,4,0,0.408,0,high,Full-strength comparison state
+ffws2025-g3,460,BRU,4,0,12,47,4,0,0.408,0,high,Full-strength comparison state
+ffws2025-g3,514,FX,4,0,12,46,4,0,0.456,0,high,Stable full-strength mid-game state
+ffws2025-g3,514,BRU,4,0,12,46,4,0,0.456,0,high,Stable full-strength mid-game state
+ffws2025-g3,514,HEV,4,0,12,46,4,0,0.456,0,high,Stable full-strength mid-game state
+ffws2025-g3,631,FX,4,0,12,48,4,0,0.56,0,high,Stable full-strength state
+ffws2025-g3,631,FLCN,4,0,12,48,4,0,0.56,0,high,Stable full-strength state
+ffws2025-g3,631,RRQ,4,0,12,48,4,0,0.56,0,high,Stable full-strength state
+ffws2025-g3,702,TS,2,1,12,48,4,2,0.623,1,medium,TS appears to have two active and one knocked after previously being full strength; strong candidate if bars are confirmed
+ffws2025-g3,702,FX,4,0,12,48,4,0,0.623,0,high,Full-strength comparison while TS is vulnerable
+ffws2025-g3,702,BRU,4,0,12,48,4,0,0.623,0,high,Full-strength comparison while TS is vulnerable
+ffws2025-g3,767,E1,2,0,12,47,4,2,0.681,1,medium,E1 appears down to two active players after being full strength; potentially prediction-worthy
+ffws2025-g3,767,FX,4,0,12,47,4,0,0.681,0,high,Full-strength comparison state
+ffws2025-g3,767,BRU,4,0,12,47,4,0,0.681,0,high,Full-strength comparison state
+ffws2025-g3,809,FLCN,2,0,10,40,4,2,0.718,1,medium,FLCN appears to have fallen to two active players as the match enters late game
+ffws2025-g3,809,FX,4,0,10,40,4,0,0.718,0,high,Full-strength late-game comparison
+ffws2025-g3,809,BRU,4,0,10,40,4,0,0.718,0,high,Full-strength late-game comparison
+ffws2025-g3,855,FLCN,2,0,9,35,2,0,0.759,0,medium,FLCN remains at roughly the same vulnerable state; no new trigger should fire
+ffws2025-g3,855,FX,4,0,9,35,4,0,0.759,0,high,Stable full-strength state
+ffws2025-g3,855,BRU,4,0,9,35,4,0,0.759,0,high,Stable full-strength state
+ffws2025-g3,880,FLCN,2,1,9,35,2,0,0.781,1,medium,FLCN appears to gain a knocked player while already down to two active; new escalation makes the state interesting again
+ffws2025-g3,880,FX,4,0,9,35,4,0,0.781,0,high,Full-strength comparison during FLCN escalation
+ffws2025-g3,986,PE,2,0,6,20,4,2,0.875,1,medium,PE appears down to two active with only six squads remaining; strong late-game survival state
+ffws2025-g3,986,FX,4,0,6,20,4,0,0.875,0,high,Full-strength late-game comparison
+ffws2025-g3,986,TS,4,0,6,20,4,0,0.875,0,medium,TS appears stable/full strength; useful negative comparison
+ffws2025-g3,1022,BRU,3,0,4,14,4,1,0.907,0,medium,BRU appears down one player but still has three active; not enough alone to justify card
+ffws2025-g3,1022,FX,3,0,4,14,4,1,0.907,0,medium,FX appears down one player late but still has three active; weaker than two-player states
+ffws2025-g3,1073,BRU,2,1,4,13,3,1,0.952,1,medium,BRU appears at two active plus one knocked in the final four; very strong prediction-worthy state
+ffws2025-g3,1073,FX,3,0,4,13,3,0,0.952,0,medium,FX remains stable at three active; no fresh escalation

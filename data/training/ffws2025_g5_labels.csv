@@ -1,0 +1,35 @@
+match_id,time_s,squad,active,knocked,teams_remaining,players_remaining,previous_active,recent_active_drop,match_progress,worth_asking,label_confidence,notes
+ffws2025-g5,243,FX,4,0,12,47,4,0,0.239,0,high,Full-strength stable squad
+ffws2025-g5,243,BRU,4,0,12,47,4,0,0.239,0,high,Full-strength stable squad
+ffws2025-g5,243,AG,4,0,12,47,4,0,0.239,0,high,Full-strength stable squad
+ffws2025-g5,243,RRQ,4,0,12,47,4,0,0.239,0,high,Full-strength stable squad
+ffws2025-g5,243,HEV,3,0,12,47,4,1,0.239,0,high,One-player loss but still three active; routine comparison example
+ffws2025-g5,450,HEV,2,0,12,44,3,1,0.442,1,high,HEV down to two active players; clear vulnerable state
+ffws2025-g5,450,E1,3,0,12,44,4,1,0.442,0,high,Three active after one-player loss; not strong enough to interrupt
+ffws2025-g5,450,R7,3,0,12,44,4,1,0.442,0,high,Three active after one-player loss; routine state
+ffws2025-g5,450,FX,4,0,12,44,4,0,0.442,0,high,Stable full-strength negative example
+ffws2025-g5,450,RRQ,4,0,12,44,4,0,0.442,0,high,Stable full-strength negative example
+ffws2025-g5,510,E1,2,0,11,41,3,1,0.501,1,high,E1 now has only two active players
+ffws2025-g5,510,R7,3,0,11,41,3,0,0.501,0,high,R7 remains stable at three active
+ffws2025-g5,510,FX,4,0,11,41,4,0,0.501,0,high,Stable full-strength comparison
+ffws2025-g5,510,AG,4,0,11,41,4,0,0.501,0,high,Stable full-strength comparison
+ffws2025-g5,690,R7,2,0,11,39,4,2,0.678,1,medium,R7 appears to have fallen sharply to two active; verify bars once more
+ffws2025-g5,690,EVOS,3,0,11,39,4,1,0.678,0,high,Three active after losing one player
+ffws2025-g5,690,GOW,3,0,11,39,4,1,0.678,0,high,Three active; moderate but not strong enough for card
+ffws2025-g5,690,RRQ,4,0,11,39,4,0,0.678,0,high,Full-strength late-game negative example
+ffws2025-g5,750,EVOS,2,1,10,37,3,1,0.737,1,high,Two active plus one knocked; strong prediction-worthy state
+ffws2025-g5,750,FX,3,0,10,37,4,1,0.737,0,high,Three active; useful negative against EVOS at same moment
+ffws2025-g5,750,BRU,3,1,10,37,4,1,0.737,1,high,Three active plus one knocked late game; worth surfacing
+ffws2025-g5,750,RRQ,4,0,10,37,4,0,0.737,0,high,Full-strength comparison at same late-game timestamp
+ffws2025-g5,810,FLCN,4,0,7,27,4,0,0.796,0,high,Full-strength squad despite late-game conditions
+ffws2025-g5,810,BRU,4,0,7,27,3,0,0.796,0,high,Strong/stable state
+ffws2025-g5,810,AG,3,0,7,27,4,1,0.796,0,high,Three active; not enough change for interruption
+ffws2025-g5,810,PE,2,0,7,27,3,1,0.796,1,high,Two active players in late game; viable survival question
+ffws2025-g5,810,TS,3,0,7,27,4,1,0.796,0,high,Three active; routine late-game loss
+ffws2025-g5,810,RRQ,4,0,7,27,4,0,0.796,0,high,Full-strength stable late-game negative
+ffws2025-g5,873,FLCN,2,2,6,20,4,2,0.858,1,high,Extremely strong state: four to two active with two knocked in late game
+ffws2025-g5,873,TS,2,0,6,20,3,1,0.858,1,high,Two active players with only six teams remaining
+ffws2025-g5,873,PE,2,0,6,20,2,0,0.858,0,high,Already stable at two active; no new state change
+ffws2025-g5,873,AG,3,0,6,20,3,0,0.858,0,high,Stable three-player state
+ffws2025-g5,873,BRU,3,0,6,20,4,1,0.858,0,high,Only one-player loss; weaker than competing candidate states
+ffws2025-g5,873,RRQ,4,0,6,20,4,0,0.858,0,high,Full-strength late-game negative example

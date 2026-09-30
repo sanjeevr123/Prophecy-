@@ -1,0 +1,5 @@
+match_id,milestone,observed_game_s,observed_video_s,squads,result_squad,result_video_s,confidence,notes
+ffws2025-g4,fx_full_strength_watch,835,806,FX,FX,817,high,13:55 match clock shows FX with four active; the 14:06 kill feed confirms FX.Butzin is the first player lost
+ffws2025-g4,gow_survival_watch,929,900,GOW,GOW,915,high,15:29 match clock shows GOW still present with six squads remaining; the 15:44 overlay confirms GOW eliminated fifth
+ffws2025-g4,final_four,945,916,AG|EVOS|E1|PE,E1,931,high,15:45 broadcast overlay verifies the complete final-four roster; the 16:00 overlay confirms E1 exit fourth
+ffws2025-g4,final_three,960,931,AG|EVOS|PE,AG,969.5,high,16:00 broadcast overlay verifies the complete final-three roster; the final team counter and elimination feed confirm AG win

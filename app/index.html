@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d19">
+  <title>Prophecy — Live Match Predictions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=34">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Prophecy home">
+      <span class="brand-mark">P</span>
+      <span>PROPHECY</span>
+    </a>
+    <span class="live-pill"><i></i> LIVE PREDICTIONS</span>
+  </header>
+
+  <main class="shell">
+    <section class="hero-grid">
+      <div class="broadcast-panel">
+        <div class="video-wrap">
+          <video id="match-video" controls controlslist="nofullscreen" playsinline preload="metadata" aria-label="Match broadcast">
+            <source src="https://github.com/yothisisash/techgarena/releases/download/DemoVideo/match.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+          <div class="video-overlay">
+            <span class="match-label"><i></i> MATCH LIVE</span>
+            <span id="video-time">00:00</span>
+          </div>
+          <button id="fullscreen-button" class="fullscreen-button" type="button" aria-label="Enter fullscreen">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/></svg>
+          </button>
+          <div id="video-empty" class="video-empty" hidden>
+            <div class="play-glyph">▶</div>
+            <strong>Match video not found</strong>
+            <span>Add <code>match.mp4</code> to the app folder.</span>
+          </div>
+          <div class="video-prediction-layer" aria-live="polite">
+            <div id="prediction-mount"></div>
+          </div>
+        </div>
+        <div class="match-meta">
+          <div>
+            <span class="eyebrow">FREE FIRE WORLD SERIES 2025 · GAME 4</span>
+            <h1>Champion Rush <span>·</span> Qualification Battle</h1>
+          </div>
+          <div class="match-status"><span id="question-counter" class="question-counter">0 / 0</span><span class="viewers">● 24.8K watching</span></div>
+        </div>
+      </div>
+
+      <aside class="session-panel" aria-label="Session progress">
+        <div class="session-heading">
+          <div><span class="eyebrow">YOUR SESSION</span><h2>Prediction Run</h2></div>
+          <div class="session-actions"><button id="reset-session" class="reset-session" type="button">↻ RESET</button><div class="streak-badge">🔥 <strong id="streak">0</strong></div></div>
+        </div>
+        <div class="score-card">
+          <div><span>SESSION SCORE</span><strong id="score">0</strong></div>
+          <div class="score-divider"></div>
+          <div><span>ACCURACY</span><strong id="accuracy">—</strong></div>
+        </div>
+        <div class="reward-block">
+          <div class="reward-title"><span>NEXT REWARD</span><strong id="reward-progress-label">0 / 500</strong></div>
+          <div class="progress-track"><div id="reward-progress" class="progress-fill"></div></div>
+          <div id="reward-list" class="reward-list"></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="summary" class="summary" hidden></section>
+  </main>
+
+  <footer><span>PROPHECY</span><p>Predictions are for entertainment. Outcomes are verified before points are awarded.</p></footer>
+  <script src="app.js?v=33" defer></script>
+</body>
+</html>

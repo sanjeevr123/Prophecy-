@@ -1,0 +1,25 @@
+match_id,time_s,squad,active,knocked,teams_remaining,players_remaining,previous_active,recent_active_drop,match_progress,worth_asking,label_confidence,notes
+ffws2025-g6,181,BRU,4,0,12,45,4,0,0.182,0,high,Full-strength stable squad at 03:01
+ffws2025-g6,181,FX,4,0,12,45,4,0,0.182,0,high,Full-strength stable squad at 03:01
+ffws2025-g6,181,FLCN,4,0,12,45,4,0,0.182,0,high,Full-strength stable squad at 03:01
+ffws2025-g6,181,PE,4,0,12,45,4,0,0.182,0,high,Full-strength stable squad at 03:01
+ffws2025-g6,181,RRQ,4,0,12,45,4,0,0.182,0,high,Full-strength stable squad at 03:01
+ffws2025-g6,181,TS,4,0,12,45,4,0,0.182,0,high,Full-strength stable squad at 03:01
+ffws2025-g6,301,AG,0,0,10,40,4,4,0.303,0,high,AG already eliminated by 05:01; not a valid new survival-question anchor
+ffws2025-g6,301,EVOS,0,0,10,40,4,4,0.303,0,high,EVOS already eliminated by 05:01; not a valid new survival-question anchor
+ffws2025-g6,391,R7,4,0,10,39,4,0,0.393,0,high,Full-strength stable squad around 06:31
+ffws2025-g6,391,HEV,3,0,10,39,4,1,0.393,0,medium,HEV appears to have three active players; routine one-player loss
+ffws2025-g6,391,E1,3,0,10,39,4,1,0.393,0,medium,E1 appears to have three active players; routine one-player loss
+ffws2025-g6,661,FLCN,2,0,10,38,4,2,0.665,1,high,FLCN down to two active players by 11:01; strong prediction-worthy state
+ffws2025-g6,661,E1,4,0,10,38,4,0,0.665,0,high,Full-strength stable comparison at same timestamp
+ffws2025-g6,661,RRQ,4,0,10,38,4,0,0.665,0,high,Full-strength stable comparison at same timestamp
+ffws2025-g6,691,FLCN,2,0,10,38,2,0,0.695,0,high,Still at two active players; no new state change so do not repeat the card
+ffws2025-g6,691,E1,4,0,10,38,4,0,0.695,0,high,Stable full-strength negative example
+ffws2025-g6,811,FX,3,0,10,38,4,1,0.816,0,medium,FX appears to have lost one player by 13:31; moderate but not strong enough alone
+ffws2025-g6,841,BRU,2,2,10,38,4,2,0.846,1,high,BRU has roughly two active and two knocked during a late-game fight; strong question-worthy state
+ffws2025-g6,841,RRQ,4,0,10,38,4,0,0.846,0,high,Full-strength comparison while BRU is under pressure
+ffws2025-g6,871,PE,1,2,7,22,3,2,0.876,1,medium,PE visibly has multiple downed players with only seven teams remaining; very strong vulnerable state
+ffws2025-g6,871,R7,4,0,7,22,4,0,0.876,0,high,Full-strength comparison at the same late-game timestamp
+ffws2025-g6,909,FLCN,2,0,5,18,2,0,0.915,0,high,FLCN remains at two active; stable vulnerable state but no newly observed drop
+ffws2025-g6,909,FX,4,0,5,18,4,0,0.915,0,high,Full-strength late-game negative example
+ffws2025-g6,949,R7,2,0,5,16,4,2,0.955,1,medium,Two R7 players are removed in the visible fight around 15:49; candidate high-interest collapse

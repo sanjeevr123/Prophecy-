@@ -1,0 +1,23 @@
+match_id,time_s,squad,active,knocked,teams_remaining,players_remaining,previous_active,recent_active_drop,match_progress,worth_asking,label_confidence,notes
+ffws2025-g7,151,FX,4,0,12,48,4,0,0.152,0,high,02:31 screenshot: full-strength stable squad
+ffws2025-g7,151,BRU,4,0,12,48,4,0,0.152,0,high,02:31 screenshot: full-strength stable squad
+ffws2025-g7,151,AG,4,0,12,48,4,0,0.152,0,high,02:31 screenshot: full-strength stable squad
+ffws2025-g7,151,FLCN,4,0,12,48,4,0,0.152,0,high,02:31 screenshot: full-strength stable squad
+ffws2025-g7,151,PE,4,0,12,48,4,0,0.152,0,high,02:31 screenshot: full-strength stable squad
+ffws2025-g7,151,RRQ,4,0,12,48,4,0,0.152,0,high,02:31 screenshot: full-strength stable squad
+ffws2025-g7,332,E1,2,0,12,44,4,2,0.335,1,medium,05:32 screenshot: two E1 players are eliminated in the feed; panel appears to show E1 reduced to two active
+ffws2025-g7,362,GOW,2,2,12,43,4,2,0.365,1,medium,06:02 screenshot: GOW row appears heavily weakened with roughly two active and two knocked
+ffws2025-g7,452,EVOS,3,0,12,43,4,1,0.456,0,medium,07:32 screenshot: EVOS appears to have lost one player; routine one-player drop
+ffws2025-g7,542,RRQ,4,0,12,43,4,0,0.546,0,high,09:02 screenshot: RRQ remains full strength; stable negative example
+ffws2025-g7,602,FX,4,0,12,45,4,0,0.607,0,high,10:02 screenshot: FX remains full strength; stable negative example
+ffws2025-g7,692,PE,1,2,11,40,3,2,0.698,1,medium,11:32 screenshot: kill feed shows two PE players knocked; panel appears to show one active and two knocked
+ffws2025-g7,722,FLCN,4,0,11,40,4,0,0.728,0,high,12:02 screenshot: FLCN appears full strength; stable comparison
+ffws2025-g7,782,FLCN,2,0,9,32,3,1,0.788,1,medium,13:02 screenshot: FLCN has suffered multiple losses and appears down to about two active players
+ffws2025-g7,812,FX,1,2,8,28,4,3,0.819,1,medium,13:32 screenshot: FX row shows a highly vulnerable state; Bops is knocked by zone and only about one active remains
+ffws2025-g7,832,RRQ,4,0,8,25,4,0,0.839,0,high,13:52 screenshot: RRQ remains full strength while other squads collapse
+ffws2025-g7,872,RRQ,4,0,7,24,4,0,0.879,0,high,14:32 screenshot: RRQ remains stable at full strength; useful late-game negative
+ffws2025-g7,902,FLCN,2,0,5,14,2,0,0.909,1,medium,15:02 screenshot: FLCN appears to have only two active players in the final five
+ffws2025-g7,962,RRQ,2,0,3,9,3,1,0.97,1,medium,16:02 top overlay: RRQ appears reduced to two active players with three teams remaining
+ffws2025-g7,962,BRU,4,0,3,9,4,0,0.97,0,high,16:02 top overlay: BRU remains full strength; stable final-three negative
+ffws2025-g7,992,AG,1,0,2,5,3,2,1,1,high,"16:32 final two: global counter shows 5 players; BRU has four, so AG has one active player"
+ffws2025-g7,992,BRU,4,0,2,5,4,0,1,0,high,16:32 final two: BRU visibly has four active players; full-strength comparison

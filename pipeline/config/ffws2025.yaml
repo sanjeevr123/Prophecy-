@@ -1,0 +1,68 @@
+event: ffws2025
+demo_match_id: ffws2025-g4
+demo_match_number: 4
+
+video_file: match.mp4
+video_duration_s: 970
+# The prototype clip begins when the in-game clock is already at 00:29.
+# All labelled CSV times use the in-game clock; all questions.json *_at_s
+# fields use video.currentTime. The generator performs this conversion.
+video_start_game_s: 29
+game_end_s: 999
+
+# Source label time bases are explicit because the observation sheet was
+# transcribed from the on-screen match clock, while the kill-feed and panel
+# interval labels were captured against video.currentTime.
+observations_time_basis: game
+events_time_basis: video
+panel_visible_time_basis: video
+
+champion_rush_threshold: 80
+
+max_questions: 7
+max_ml_questions: 3
+max_questions_per_squad: 1
+
+min_worth_score: 0.30
+min_question_spacing_s: 45
+same_squad_cooldown_s: 180
+
+# Past-only evidence windows used before model scoring/ranking.
+recent_event_window_s: 45
+state_change_window_s: 90
+panel_history_window_s: 120
+min_panel_duty_cycle: 0.25
+
+ranking_weights:
+  model: 0.70
+  events: 0.12
+  tournament: 0.10
+  settleability: 0.08
+
+answer_window_s: 8
+survival_horizon_s: 60
+short_roster_horizon_s: 21
+endgame_survival_horizon_s: 15
+max_settlement_delay_s: 15
+lock_confirmation_s: 1.25
+result_display_s: 5
+milestone_card_delay_s: 5
+
+booyah_squad: AG
+final_four_at_game_s: 945
+final_three_at_game_s: 960
+booyah_at_video_s: 969.5
+
+squads:
+  - EVOS
+  - AG
+  - BRU
+  - FLCN
+  - R7
+  - E1
+  - FX
+  - HEV
+  - PE
+  - RRQ
+  - TS
+  - GOW
