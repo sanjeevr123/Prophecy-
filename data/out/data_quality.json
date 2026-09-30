@@ -1,0 +1,31 @@
+{
+  "match_id": "ffws2025-g4",
+  "observation_rows": 45,
+  "observation_timestamps": 22,
+  "average_squads_per_timestamp": 2.045,
+  "complete_12_squad_timestamps": 0,
+  "killfeed_event_rows": 144,
+  "killfeed_event_types": {
+    "eliminated": 61,
+    "knocked": 67,
+    "revived": 16
+  },
+  "events_input_required_sorting": true,
+  "exact_duplicate_event_rows": 31,
+  "panel_visible_fraction": 0.6717,
+  "previous_active_mismatches": 0,
+  "recent_active_drop_mismatches": 0,
+  "important_limitations": [
+    "The replay inputs are pre-labelled broadcast observations that emulate future OCR/live ingestion; this pipeline does not extract them directly from match.mp4.",
+    "Game 4 observations are sparse candidate snapshots, not a complete 12-squad panel at every timestamp.",
+    "Kill-feed labels identify the affected squad and event type but not a player ID or credited killer.",
+    "Generic eliminated rows are player-level events and are not treated as squad eliminations."
+  ],
+  "source_time_bases": {
+    "observations": "game",
+    "events_input": "video",
+    "panel_visible_input": "video",
+    "derived_features": "game",
+    "questions": "video"
+  }
+}

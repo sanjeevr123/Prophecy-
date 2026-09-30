@@ -1,0 +1,46 @@
+match_id,time_s,squad,active,knocked,teams_remaining,players_remaining,previous_active,recent_active_drop,match_progress,label_confidence,notes
+ffws2025-g4,190,FX,4,0,12,43,4,0,0.192,high,03:10 scoreboard shows FX full strength
+ffws2025-g4,190,BRU,4,0,12,43,4,0,0.192,high,03:10 scoreboard shows BRU full strength
+ffws2025-g4,190,FLCN,4,0,12,43,4,0,0.192,high,03:10 scoreboard shows FLCN full strength
+ffws2025-g4,190,EVOS,4,0,12,43,4,0,0.192,medium,03:10 appears full strength
+ffws2025-g4,190,R7,4,0,12,43,4,0,0.192,high,03:10 scoreboard shows R7 full strength
+ffws2025-g4,270,HEV,3,0,11,42,4,1,0.273,high,04:30 player panel shows three HEV players still active
+ffws2025-g4,270,FLCN,3,0,11,42,4,1,0.273,medium,FLCN appears reduced from four to roughly three active
+ffws2025-g4,300,HEV,2,0,11,41,3,1,0.303,high,05:00 HEV has lost Khabi and appears down to two active players
+ffws2025-g4,300,FLCN,3,0,11,41,3,0,0.303,medium,FLCN remains weakened but still active
+ffws2025-g4,330,HEV,2,0,10,37,2,0,0.333,high,05:30 HEV still has two active players; no new drop
+ffws2025-g4,330,FLCN,2,0,10,37,3,1,0.333,medium,05:30 FLCN appears down to two active after continued HEV fight
+ffws2025-g4,360,FLCN,3,0,10,39,2,0,0.364,medium,06:00 revival/state recovery appears possible; scoreboard shows roughly three active
+ffws2025-g4,360,HEV,1,2,10,39,2,1,0.364,medium,06:00 HEV is visibly in a highly vulnerable state with multiple players down
+ffws2025-g4,390,FLCN,3,0,10,38,3,0,0.394,high,06:30 focused FLCN panel shows three active players
+ffws2025-g4,390,HEV,1,0,10,38,1,0,0.394,medium,HEV appears to be reduced to a single surviving active player
+ffws2025-g4,420,FLCN,3,0,10,39,3,0,0.424,high,07:00 FLCN remains at three active
+ffws2025-g4,420,HEV,3,0,10,39,1,0,0.424,medium,HEV appears to have recovered players through revival mechanics
+ffws2025-g4,540,EVOS,4,0,10,40,4,0,0.545,high,09:00 EVOS appears full strength
+ffws2025-g4,570,EVOS,3,0,10,40,4,1,0.576,high,09:30 focused EVOS panel shows three active players
+ffws2025-g4,600,FLCN,3,0,10,40,3,0,0.606,medium,10:00 FLCN remains around three active
+ffws2025-g4,600,HEV,3,0,10,40,3,0,0.606,medium,10:00 HEV appears stable
+ffws2025-g4,690,AG,3,0,10,39,4,0,0.697,high,11:30 focused AG player panel shows three active players
+ffws2025-g4,690,FLCN,3,0,10,39,3,0,0.697,medium,FLCN remains active before AG confrontation
+ffws2025-g4,720,AG,3,0,10,37,3,0,0.727,high,12:00 AG still has three active players
+ffws2025-g4,720,FLCN,2,0,10,37,3,1,0.727,high,12:00 FLCN appears reduced to two active players after AG kills Peena
+ffws2025-g4,750,AG,3,0,10,37,3,0,0.758,high,12:30 AG remains stable
+ffws2025-g4,750,FLCN,1,0,10,37,2,1,0.758,medium,12:30 Limitx7 appears to be FLCN's remaining active player
+ffws2025-g4,780,FLCN,1,0,10,37,1,0,0.781,high,13:00 scoreboard clearly verifies one FLCN player active
+ffws2025-g4,810,EVOS,4,0,9,34,3,0,0.818,high,13:30 EVOS appears full strength
+ffws2025-g4,810,GOW,4,0,9,34,4,0,0.818,high,13:30 GOW appears full strength
+ffws2025-g4,810,HEV,1,0,9,34,3,2,0.818,medium,13:30 HEV appears down to one active player
+ffws2025-g4,846,FX,3,0,9,34,4,1,0.847,high,14:06 kill feed and squad panel verify FX reduced from four to three active
+ffws2025-g4,870,AG,3,0,8,30,3,0,0.879,high,14:30 focused AG panel shows three active players
+ffws2025-g4,870,EVOS,4,0,8,30,4,0,0.879,medium,14:30 EVOS appears full strength
+ffws2025-g4,875,HEV,2,0,8,30,1,0,0.876,high,14:35 scoreboard clearly verifies two HEV players active after recovery
+ffws2025-g4,900,PE,4,0,7,26,4,0,0.909,high,15:00 PE player labels show four active players
+ffws2025-g4,900,R7,2,1,7,26,4,2,0.909,medium,15:00 R7 is visibly under heavy pressure with Haaxsz knocked
+ffws2025-g4,930,EVOS,3,0,6,21,4,1,0.939,high,15:30 EVOS appears reduced to three active players
+ffws2025-g4,930,PE,4,0,6,21,4,0,0.939,high,15:30 PE remains full strength
+ffws2025-g4,930,E1,4,0,6,21,4,0,0.939,high,15:30 E1 remains full strength
+ffws2025-g4,960,AG,3,0,3,9,3,0,0.97,high,16:00 final-three overlay shows AG with three active
+ffws2025-g4,960,EVOS,3,0,3,9,3,0,0.97,high,16:00 final-three overlay shows EVOS with three active
+ffws2025-g4,960,PE,3,0,3,9,4,1,0.97,medium,16:00 final-three overlay appears to show PE with three active
+ffws2025-g4,990,AG,3,0,2,6,3,0,1,high,16:30 final-two overlay shows AG with three active
+ffws2025-g4,990,PE,3,0,2,6,3,0,1,high,"16:30 final-two global count is six, consistent with three players each"

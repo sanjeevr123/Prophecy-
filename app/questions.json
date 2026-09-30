@@ -1,0 +1,231 @@
+{
+  "schema_version": 2,
+  "status": "legacy_unused",
+  "note": "Historical six-card reference only. The current viewer loads ../data/out/questions.json.",
+  "match_id": "ffws2025-g4",
+  "video_file": "match.mp4",
+  "video_duration_s": 970.0,
+  "selection_engine": "ML-ranked, frame-verified editorial showcase",
+  "questions": [
+    {
+      "id": "q1",
+      "contract": "rebuild_watch",
+      "squad": "HEV",
+      "show_at_s": 362,
+      "close_at_s": 369,
+      "collapse_at_s": 370.25,
+      "target_at_s": 392,
+      "resolve_at_s": 371,
+      "result_hide_at_s": 375.5,
+      "headline": "REBUILD WINDOW",
+      "context": "The standings show two HEV players still standing",
+      "text": "Will HEV rebuild to three standing players within 30 seconds?",
+      "options": [
+        {
+          "id": "yes",
+          "label": "YES"
+        },
+        {
+          "id": "no",
+          "label": "NO"
+        }
+      ],
+      "correct_option_id": "yes",
+      "result_headline": "HEV REBUILD",
+      "result_detail": "A verified revive restores HEV's third standing player.",
+      "verification": {
+        "source": "broadcast_frame_and_event_log",
+        "observed_at_s": 362,
+        "confidence": "high",
+        "fact": "Two standing at card open; HEV revival recorded at 371 seconds"
+      },
+      "status": "resolved",
+      "points": 100
+    },
+    {
+      "id": "q2",
+      "contract": "hold_the_line",
+      "squad": "FLCN",
+      "show_at_s": 722,
+      "close_at_s": 730,
+      "collapse_at_s": 731.25,
+      "target_at_s": 750,
+      "resolve_at_s": 750,
+      "result_hide_at_s": 754.5,
+      "headline": "UNDER PRESSURE",
+      "context": "FLCN are exposed with two players standing",
+      "text": "Will FLCN keep both players standing for another 28 seconds?",
+      "options": [
+        {
+          "id": "yes",
+          "label": "YES"
+        },
+        {
+          "id": "no",
+          "label": "NO"
+        }
+      ],
+      "correct_option_id": "no",
+      "result_headline": "FLCN ARE SPLIT",
+      "result_detail": "The 12:30 verification shows FLCN reduced to one standing player.",
+      "verification": {
+        "source": "broadcast_frame_and_verified_snapshot",
+        "observed_at_s": 722,
+        "confidence": "high",
+        "fact": "Two standing at 722 seconds; one standing at 750 seconds"
+      },
+      "status": "resolved",
+      "points": 100
+    },
+    {
+      "id": "q3",
+      "contract": "full_strength_watch",
+      "squad": "FX",
+      "show_at_s": 806,
+      "close_at_s": 814,
+      "collapse_at_s": 815.25,
+      "target_at_s": 826,
+      "resolve_at_s": 817,
+      "result_hide_at_s": 821.5,
+      "headline": "FULL STRENGTH",
+      "context": "FX enter the crowded hillside fight with four standing",
+      "text": "Will FX keep all four players standing through this fight?",
+      "options": [
+        {
+          "id": "yes",
+          "label": "YES"
+        },
+        {
+          "id": "no",
+          "label": "NO"
+        }
+      ],
+      "correct_option_id": "no",
+      "result_headline": "FX TAKE A LOSS",
+      "result_detail": "AG.Baros confirms the first FX elimination at 13:37.",
+      "verification": {
+        "source": "broadcast_frame_and_event_log",
+        "observed_at_s": 806,
+        "confidence": "high",
+        "fact": "FX elimination recorded at 817 seconds"
+      },
+      "status": "resolved",
+      "points": 100
+    },
+    {
+      "id": "q4",
+      "contract": "survival_watch",
+      "squad": "GOW",
+      "show_at_s": 900,
+      "close_at_s": 906,
+      "collapse_at_s": 907.25,
+      "target_at_s": 915,
+      "resolve_at_s": 915,
+      "result_hide_at_s": 919.5,
+      "headline": "SURVIVAL WATCH",
+      "context": "GOW are trapped between EVOS and the shrinking zone",
+      "text": "Will GOW survive the next 15 seconds?",
+      "options": [
+        {
+          "id": "yes",
+          "label": "YES"
+        },
+        {
+          "id": "no",
+          "label": "NO"
+        }
+      ],
+      "correct_option_id": "no",
+      "result_headline": "GOW ELIMINATED",
+      "result_detail": "The broadcast confirms GOW finish in fifth place.",
+      "verification": {
+        "source": "event_log_and_elimination_banner",
+        "observed_at_s": 900,
+        "confidence": "high",
+        "fact": "GOW elimination confirmed at 915 seconds"
+      },
+      "status": "resolved",
+      "points": 100
+    },
+    {
+      "id": "q5",
+      "contract": "next_squad_out",
+      "show_at_s": 916,
+      "close_at_s": 924,
+      "collapse_at_s": 925.25,
+      "target_at_s": 930,
+      "resolve_at_s": 930,
+      "result_hide_at_s": 934.5,
+      "headline": "FINAL FOUR",
+      "context": "AG, EVOS, E1 and PE remain",
+      "text": "Which squad drops before the final three?",
+      "options": [
+        {
+          "id": "AG",
+          "label": "AG"
+        },
+        {
+          "id": "EVOS",
+          "label": "EVOS"
+        },
+        {
+          "id": "E1",
+          "label": "E1"
+        },
+        {
+          "id": "PE",
+          "label": "PE"
+        }
+      ],
+      "correct_option_id": "E1",
+      "result_headline": "E1 EXIT IN FOURTH",
+      "result_detail": "The kill feed and team counter confirm E1 are the next squad out.",
+      "verification": {
+        "source": "event_log_and_team_counter",
+        "observed_at_s": 916,
+        "confidence": "high",
+        "fact": "E1 final eliminations recorded at 929 seconds"
+      },
+      "status": "resolved",
+      "points": 100
+    },
+    {
+      "id": "q6",
+      "contract": "final_three",
+      "show_at_s": 940,
+      "close_at_s": 948,
+      "collapse_at_s": 949.25,
+      "target_at_s": 969,
+      "resolve_at_s": 969,
+      "result_hide_at_s": 973.5,
+      "headline": "THREE LEFT",
+      "context": "AG, EVOS and PE remain in the final circle",
+      "text": "Who takes the Booyah?",
+      "options": [
+        {
+          "id": "AG",
+          "label": "AG"
+        },
+        {
+          "id": "EVOS",
+          "label": "EVOS"
+        },
+        {
+          "id": "PE",
+          "label": "PE"
+        }
+      ],
+      "correct_option_id": "AG",
+      "result_headline": "AG TAKE THE BOOYAH",
+      "result_detail": "AG close Game 4 with 21 eliminations and the win.",
+      "verification": {
+        "source": "broadcast_result",
+        "observed_at_s": 940,
+        "confidence": "high",
+        "fact": "Final-three overlay visible at 940 seconds; winner confirmed at 969"
+      },
+      "status": "resolved",
+      "points": 100
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "schema_version": 5,
+  "match_id": "ffws2025-g4",
+  "prototype_mode": "recorded_match_emulating_live_ingest",
+  "input_mode": "prelabelled_broadcast_observations_emulating_future_ocr_live_ingest",
+  "video_file": "match.mp4",
+  "video_duration_s": 970.0,
+  "video_starts_at_game_s": 29.0,
+  "selection_engine": "Frozen L2 logistic-regression worthiness model plus past-only kill-feed, observation-confidence and tournament context; a deterministic diversity policy chooses distinct squads and question contracts",
+  "model": {
+    "target": "worth_asking",
+    "features": [
+      "active",
+      "knocked",
+      "teams_remaining",
+      "players_remaining",
+      "recent_active_drop",
+      "match_progress"
+    ],
+    "training_matches": [
+      "ffws2025-g1",
+      "ffws2025-g2",
+      "ffws2025-g3",
+      "ffws2025-g5",
+      "ffws2025-g6",
+      "ffws2025-g7"
+    ],
+    "training_rows": 178,
+    "positive_rows": 32,
+    "mean_balanced_accuracy": 0.9277,
+    "mean_average_precision": 0.8915,
+    "important_note": "model_worthiness_score is not a survival probability"
+  },
+  "decision_policy": {
+    "feature_cutoff": "all selection inputs are at or before anchor_game_s",
+    "model_is_primary": "70% of composite rank",
+    "future_results_used_for_model_features_or_ranking": false,
+    "prototype_scheduling_uses_known_replay_milestones": true,
+    "settlement": "computed only after candidate selection",
+    "showcase_diversity": "maximum one ML-selected card per squad; maximise card count, contract variety, match-phase coverage and then composite score",
+    "verified_showcase_triggers": [
+      "fx_full_strength_watch",
+      "gow_survival_watch"
+    ],
+    "deterministic_milestones": [
+      "final_four",
+      "final_three"
+    ],
+    "card_sources": {
+      "ml_ranked": 3,
+      "verified_showcase": 2,
+      "verified_milestone": 2
+    },
+    "max_questions": 7
+  },
+  "input_summary": {
+    "scored_game4_states": 45,
+    "killfeed_events": 144,
+    "panel_visible_fraction": 0.6717
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "contract": "recovery",
+      "selection_method": "ml_ranked_diversity_policy",
+      "squad": "HEV",
+      "anchor_game_s": 360.0,
+      "show_at_s": 356.0,
+      "close_at_s": 364.0,
+      "collapse_at_s": 374.0,
+      "collapse_delay_s": 10.00,
+      "contract_horizon_s": 60.0,
+      "window_end_s": 416.0,
+      "resolve_at_s": 416.0,
+      "result_hide_at_s": 421.0,
+      "headline": "REVIVAL WINDOW",
+      "context": "The standings show two HEV players still standing",
+      "text": "Will HEV rebuild to at least 3 active players 60 seconds from now?",
+      "settlement_note": "Locks in 8 seconds and checks the next verified state at the 60-second mark.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "YES"
+        },
+        {
+          "id": "no",
+          "label": "NO"
+        }
+      ],
+      "correct_option_id": "yes",
+      "model_worthiness_score": 0.9993,
+      "selection_score": 0.6476,
+      "selection_summary": "Model rank 1; last 45s: 2 knocks, 1 elimination, 2 revives; recovery contract chosen by the diversity policy; past-only panel settleability 76%.",
+      "selection_factors": {
+        "model_rank": 1,
+        "model_worthiness": 0.9993,
+        "recent_killfeed_events": 5,
+        "tournament_relevance": 0.4493,
+        "observation_confidence": "medium",
+        "past_panel_duty_cycle": 0.7583
+      },
+      "state_age_at_anchor_s": 0.0,
+      "result_headline": "HEV REBUILD",
+      "result_detail": "A verified revive restores HEV's third standing player.",
+      "result_consequence": "HEV regain a member and remain in contention for the Booyah.",
+      "verification": {
+        "source": "verified_squad_snapshot",
+        "observed_at_s": 356.0,
+        "observed_at_game_s": 356.0,
+        "settlement_evidence_game_s": 416.0,
+        "confidence": "medium",
+        "fact": "Verified squad snapshot shows 3 active and 0 knocked.",
+        "state_reconstruction_warnings": []
+      },
+      "live_state": [
+        {
+          "game_time_s": 356.0,
+          "players_active": 1,
+          "players_knocked": 2,
+          "source": "verified_squad_snapshot",
+          "at_s": 356.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 361.0,
+          "players_active": 1,
+          "players_knocked": 1,
+          "source": "killfeed_eliminated",
+          "at_s": 356.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 366.0,
+          "players_active": 2,
+          "players_knocked": 0,
+          "source": "killfeed_revived",
+          "at_s": 362.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 379.0,
+          "players_active": 1,
+          "players_knocked": 1,
+          "source": "killfeed_knocked",
+          "at_s": 350.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 381.0,
+          "players_active": 1,
+          "players_knocked": 0,
+          "source": "killfeed_eliminated",
+          "at_s": 352.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 390.0,
+          "players_active": 1,
+          "players_knocked": 0,
+          "source": "verified_squad_snapshot",
+          "at_s": 361.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 400.0,
+          "players_active": 2,
+          "players_knocked": 0,
+          "source": "killfeed_revived",
+          "at_s": 371.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 420.0,
+          "players_active": 3,
+          "players_knocked": 0,
+          "source": "verified_squad_snapshot",
+          "at_s": 391.0,
+          "verified": true
+        }
+      ],
+      "status": "resolved",
+      "points": 100
+    },
+    {
+      "id": "q2",
+      "contract": "two_player_hold",
+      "selection_method": "ml_ranked_diversity_policy",
+      "squad": "FLCN",
+      "show_at_s": 678,
+      "close_at_s": 686,
+      "collapse_at_s": 687.25,
+      "target_at_s": 706,
+      "resolve_at_s": 706,
+      "result_hide_at_s": 710.5,
+      "headline": "UNDER PRESSURE",
+      "context": "FLCN are exposed with two players standing",
+      "text": "Will FLCN keep both players standing for another 30 seconds?",
+      "options": [
+        {
+          "id": "yes",
+          "label": "YES"
+        },
+        {
+          "id": "no",
+          "label": "NO"
+        }
+      ],
+      "correct_option_id": "no",
+      "result_headline": "FLCN ARE SPLIT",
+      "result_detail": "The 11:46 verification shows FLCN reduced to one standing player.",
+      "verification": {
+        "source": "broadcast_frame_and_verified_snapshot",
+        "observed_at_s": 678,
+        "confidence": "high",
+        "fact": "Two standing at 678 seconds; one standing at 706 seconds"
+      },
+      "live_state": [
+        {
+          "game_time_s": 720.0,
+          "players_active": 2,
+          "players_knocked": 0,
+          "source": "verified_squad_snapshot",
+          "at_s": 691.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 750.0,
+          "players_active": 1,
+          "players_knocked": 0,
+          "source": "verified_squad_snapshot",
+          "at_s": 721.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 780.0,
+          "players_active": 1,
+          "players_knocked": 0,
+          "source": "verified_squad_snapshot",
+          "at_s": 751.0,
+          "verified": true
+        }
+      ],
+      "status": "resolved",
+      "points": 100
+    },
+    {
+      "id": "q3",
+      "contract": "full_strength_watch",
+      "selection_method": "verified_broadcast_showcase_trigger",
+      "squad": "FX",
+      "anchor_game_s": 835.0,
+      "show_at_s": 806.0,
+      "close_at_s": 814.0,
+      "collapse_at_s": 815.25,
+      "collapse_delay_s": 1.25,
+      "contract_horizon_s": 11.0,
+      "window_end_s": 817.0,
+      "resolve_at_s": 817.0,
+      "result_hide_at_s": 822.0,
+      "headline": "FULL STRENGTH",
+      "context": "The broadcast verifies FX with all four players active as the camera follows the engagement",
+      "text": "Will FX keep its full squad standing through this fight?",
+      "settlement_note": "Locks in 8 seconds and resolves from the stated broadcast-visible evidence.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "YES"
+        },
+        {
+          "id": "no",
+          "label": "NO"
+        }
+      ],
+      "correct_option_id": "no",
+      "selection_summary": "Frame-verified showcase trigger retained for contract variety; explicitly not ML-selected.",
+      "result_headline": "FX TAKE A LOSS",
+      "result_detail": "The kill feed confirms FX.Butzin as the first FX player eliminated.",
+      "result_consequence": "The tournament leaders lose their full-strength roster advantage.",
+      "state_age_at_show_s": 0.0,
+      "verification": {
+        "source": "verified_squad_panel_and_killfeed",
+        "observed_at_s": 806.0,
+        "observed_at_game_s": 835.0,
+        "settlement_evidence_at_s": 817.0,
+        "confidence": "high",
+        "fact": "FX have four active at card open; the broadcast kill feed confirms the first FX elimination at video 13:37."
+      },
+      "status": "resolved",
+      "points": 100
+    },
+    {
+      "id": "q4",
+      "contract": "last_stand",
+      "selection_method": "ml_ranked_diversity_policy",
+      "squad": "R7",
+      "anchor_game_s": 900.0,
+      "show_at_s": 865.0,
+      "close_at_s": 873.0,
+      "collapse_at_s": 880.25,
+      "collapse_delay_s": 7.25,
+      "contract_horizon_s": 15.0,
+      "window_end_s": 886.0,
+      "resolve_at_s": 886.0,
+      "result_hide_at_s": 891.0,
+      "headline": "LAST STAND",
+      "context": "R7 · 11th before Game 4 · 1 point from the nearest squad · last verified 2 active, 1 knocked",
+      "text": "Will R7 still have an active player 15 seconds from now?",
+      "settlement_note": "Locks in 8 seconds and checks the reconstructed roster after 15 seconds.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "YES"
+        },
+        {
+          "id": "no",
+          "label": "NO"
+        }
+      ],
+      "correct_option_id": "no",
+      "model_worthiness_score": 0.995,
+      "selection_score": 0.6849,
+      "selection_summary": "Model rank 2; last 45s: 2 knocks, 1 elimination; last stand contract chosen by the diversity policy; past-only panel settleability 100%.",
+      "selection_factors": {
+        "model_rank": 2,
+        "model_worthiness": 0.995,
+        "recent_killfeed_events": 3,
+        "tournament_relevance": 0.8187,
+        "observation_confidence": "medium",
+        "past_panel_duty_cycle": 1.0
+      },
+      "state_age_at_anchor_s": 0.0,
+      "result_headline": "R7 HAVE NO ACTIVE PLAYERS",
+      "result_detail": "Verified evidence at settlement shows 0 active and 1 knocked.",
+      "result_consequence": "R7 are eliminated from contention for the Booyah.",
+      "verification": {
+        "source": "killfeed_eliminated",
+        "observed_at_s": 871.0,
+        "observed_at_game_s": 900.0,
+        "settlement_evidence_game_s": 915.0,
+        "confidence": "medium",
+        "fact": "Kill-feed eliminated update reconstructs R7 at 0 active and 1 knocked.",
+        "state_reconstruction_warnings": []
+      },
+      "live_state": [
+        {
+          "game_time_s": 900.0,
+          "players_active": 2,
+          "players_knocked": 1,
+          "source": "verified_squad_snapshot",
+          "at_s": 871.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 901.0,
+          "players_active": 1,
+          "players_knocked": 2,
+          "source": "killfeed_knocked",
+          "at_s": 872.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 908.0,
+          "players_active": 1,
+          "players_knocked": 1,
+          "source": "killfeed_eliminated",
+          "at_s": 879.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 912.0,
+          "players_active": 0,
+          "players_knocked": 2,
+          "source": "killfeed_knocked",
+          "at_s": 883.0,
+          "verified": true
+        },
+        {
+          "game_time_s": 915.0,
+          "players_active": 0,
+          "players_knocked": 1,
+          "source": "killfeed_eliminated",
+          "at_s": 886.0,
+          "verified": true
+        }
+      ],
+      "status": "resolved",
+      "points": 100
+    },
+    {
+      "id": "q5",
+      "contract": "survival_watch",
+      "selection_method": "verified_broadcast_showcase_trigger",
+      "squad": "GOW",
+      "anchor_game_s": 929.0,
+      "show_at_s": 895.0,
+      "close_at_s": 903.0,
+      "collapse_at_s": 909.25,
+      "collapse_delay_s": 6.25,
+      "contract_horizon_s": 15.0,
+      "window_end_s": 915.0,
+      "resolve_at_s": 915.0,
+      "result_hide_at_s": 920.0,
+      "headline": "SURVIVAL WATCH",
+      "context": "Six squads remain and GOW are present in the latest verified broadcast state",
+      "text": "Will GOW survive?",
+      "settlement_note": "Locks in 8 seconds and resolves from the stated broadcast-visible evidence.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "YES"
+        },
+        {
+          "id": "no",
+          "label": "NO"
+        }
+      ],
+      "correct_option_id": "no",
+      "selection_summary": "Frame-verified showcase trigger retained for contract variety; explicitly not ML-selected.",
+      "result_headline": "GOW ELIMINATED",
+      "result_detail": "The broadcast elimination banner confirms GOW finish fifth.",
+      "result_consequence": "Only AG, EVOS, E1 and PE remain for the final-four prediction.",
+      "state_age_at_show_s": 0.0,
+      "verification": {
+        "source": "verified_broadcast_state_and_elimination_banner",
+        "observed_at_s": 900.0,
+        "observed_at_game_s": 929.0,
+        "settlement_evidence_at_s": 915.0,
+        "confidence": "high",
+        "fact": "GOW are present at video 15:00; the fifth-place elimination banner appears at video 15:15."
+      },
+      "status": "resolved",
+      "points": 100
+    },
+    {
+      "id": "q6",
+      "contract": "next_squad_out",
+      "selection_method": "deterministic_verified_milestone",
+      "anchor_game_s": 945.0,
+      "show_at_s": 921.0,
+      "close_at_s": 929.0,
+      "collapse_at_s": 930.25,
+      "collapse_delay_s": 1.25,
+      "window_end_s": 931.0,
+      "resolve_at_s": 931.0,
+      "result_hide_at_s": 936.0,
+      "headline": "FINAL FOUR",
+      "context": "AG, EVOS, E1 and PE remain at the verified overlay",
+      "text": "Which squad drops before the final three?",
+      "settlement_note": "Locks in 8 seconds and resolves at the verified final-three update.",
+      "options": [
+        {
+          "id": "AG",
+          "label": "AG"
+        },
+        {
+          "id": "EVOS",
+          "label": "EVOS"
+        },
+        {
+          "id": "E1",
+          "label": "E1"
+        },
+        {
+          "id": "PE",
+          "label": "PE"
+        }
+      ],
+      "correct_option_id": "E1",
+      "selection_summary": "Triggered deterministically by the complete verified four-squad broadcast overlay.",
+      "result_headline": "E1 EXIT IN FOURTH",
+      "result_detail": "The next verified overlay removes E1 and shows three squads remaining.",
+      "result_consequence": "The lobby is reduced to AG, EVOS and PE for the final prediction.",
+      "state_age_at_show_s": 5.0,
+      "verification": {
+        "source": "verified_final_four_and_final_three_overlays",
+        "observed_at_s": 916.0,
+        "observed_at_game_s": 945.0,
+        "settlement_evidence_at_s": 931.0,
+        "confidence": "high",
+        "fact": "The final-four overlay shows AG, EVOS, E1, PE; the final-three overlay excludes E1."
+      },
+      "status": "resolved",
+      "points": 100
+    },
+    {
+      "id": "q7",
+      "contract": "final_three",
+      "selection_method": "deterministic_verified_milestone",
+      "anchor_game_s": 960.0,
+      "show_at_s": 936.0,
+      "close_at_s": 944.0,
+      "collapse_at_s": 945.25,
+      "collapse_delay_s": 1.25,
+      "window_end_s": 969.5,
+      "resolve_at_s": 969.5,
+      "result_hide_at_s": 970.0,
+      "headline": "THREE LEFT",
+      "context": "AG, EVOS and PE remain at the verified update",
+      "text": "Who takes the Booyah?",
+      "settlement_note": "Locks in 8 seconds and resolves when Game 4 ends.",
+      "options": [
+        {
+          "id": "AG",
+          "label": "AG"
+        },
+        {
+          "id": "EVOS",
+          "label": "EVOS"
+        },
+        {
+          "id": "PE",
+          "label": "PE"
+        }
+      ],
+      "correct_option_id": "AG",
+      "selection_summary": "Triggered deterministically by the verified complete three-squad roster.",
+      "result_headline": "AG TAKE THE BOOYAH",
+      "result_detail": "AG win Game 4.",
+      "result_consequence": "The match result now feeds the tournament standings update.",
+      "state_age_at_show_s": 5.0,
+      "verification": {
+        "source": "verified_final_three_snapshot_and_broadcast_result",
+        "observed_at_s": 931.0,
+        "observed_at_game_s": 960.0,
+        "settlement_evidence_at_s": 969.5,
+        "confidence": "high",
+        "fact": "Final-three snapshot contains AG, EVOS, PE; broadcast result names AG."
+      },
+      "status": "resolved",
+      "points": 100
+    }
+  ]
+}

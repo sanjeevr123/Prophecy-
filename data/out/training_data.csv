@@ -1,0 +1,179 @@
+match_id,time_s,squad,active,knocked,teams_remaining,players_remaining,previous_active,recent_active_drop,match_progress,worth_asking,label_confidence,notes,source_file
+ffws2025-g1,161,AG,3,0,12,47,4,1,0.174,0,medium,AG has lost one active player early; not enough to justify interrupting the viewer,ffws2025_g1_labels.csv
+ffws2025-g1,161,EVOS,4,0,12,47,4,0,0.174,0,high,Full-strength stable squad early in the match,ffws2025_g1_labels.csv
+ffws2025-g1,161,FX,4,0,12,47,4,0,0.174,0,high,Full-strength stable squad early in the match,ffws2025_g1_labels.csv
+ffws2025-g1,461,BRU,4,0,11,44,4,0,0.498,0,high,Full-strength stable squad around mid game,ffws2025_g1_labels.csv
+ffws2025-g1,461,FLCN,4,0,11,44,4,0,0.498,0,high,Full-strength stable squad around mid game,ffws2025_g1_labels.csv
+ffws2025-g1,461,FX,4,0,11,44,4,0,0.498,0,high,Full-strength stable squad around mid game,ffws2025_g1_labels.csv
+ffws2025-g1,521,AG,2,1,11,42,4,2,0.563,1,medium,AG falls from full strength to two active; at least one knock bar is visible. Strong prediction-worthy transition,ffws2025_g1_labels.csv
+ffws2025-g1,521,EVOS,4,0,11,42,4,0,0.563,0,high,Full-strength comparison at the same moment,ffws2025_g1_labels.csv
+ffws2025-g1,521,RRQ,4,0,11,42,4,0,0.563,0,high,Full-strength squad at the same moment AG becomes vulnerable,ffws2025_g1_labels.csv
+ffws2025-g1,551,EVOS,4,0,10,38,4,0,0.596,0,high,Full-strength comparison while HEV is vulnerable,ffws2025_g1_labels.csv
+ffws2025-g1,551,FX,4,0,10,38,4,0,0.596,0,high,Full-strength comparison while HEV is vulnerable,ffws2025_g1_labels.csv
+ffws2025-g1,551,HEV,2,0,10,38,4,2,0.596,1,high,HEV drops from four active to two active; strong survival-question state,ffws2025_g1_labels.csv
+ffws2025-g1,581,HEV,2,0,10,38,2,0,0.628,0,high,HEV remains at two active but this is now an unchanged state; avoid repeatedly asking about the same squad,ffws2025_g1_labels.csv
+ffws2025-g1,581,RRQ,4,0,10,38,4,0,0.628,0,high,Stable full-strength squad,ffws2025_g1_labels.csv
+ffws2025-g1,611,EVOS,4,0,10,38,4,0,0.661,0,high,Full-strength stable squad,ffws2025_g1_labels.csv
+ffws2025-g1,611,HEV,2,0,10,38,2,0,0.661,0,high,Still two active with no new transition; useful negative example showing vulnerability alone should not repeatedly trigger,ffws2025_g1_labels.csv
+ffws2025-g1,745,EVOS,4,0,8,32,4,0,0.805,0,high,Full-strength late-game squad,ffws2025_g1_labels.csv
+ffws2025-g1,745,FLCN,4,0,8,32,4,0,0.805,0,high,Full-strength late-game squad,ffws2025_g1_labels.csv
+ffws2025-g1,745,FX,4,0,8,32,4,0,0.805,0,high,Full-strength late-game squad,ffws2025_g1_labels.csv
+ffws2025-g1,814,BRU,4,0,6,24,4,0,0.88,0,high,Only six teams remain but BRU is still full strength; late game alone should not trigger a prediction,ffws2025_g1_labels.csv
+ffws2025-g1,814,FLCN,4,0,6,24,4,0,0.88,0,high,Full-strength state with six teams remaining,ffws2025_g1_labels.csv
+ffws2025-g1,864,BRU,4,0,5,20,4,0,0.934,0,high,Very late game and full strength; no unusual state change,ffws2025_g1_labels.csv
+ffws2025-g1,864,FX,4,0,5,20,4,0,0.934,0,high,Very late game but still full strength; useful negative against naive late-game triggering,ffws2025_g1_labels.csv
+ffws2025-g2,146,BRU,4,0,11,42,4,0,0.152,0,high,Full-strength stable squad,ffws2025_g2_labels.csv
+ffws2025-g2,146,FLCN,4,0,11,42,4,0,0.152,0,high,Full-strength stable squad,ffws2025_g2_labels.csv
+ffws2025-g2,146,FX,4,0,11,42,4,0,0.152,0,high,Full-strength stable squad,ffws2025_g2_labels.csv
+ffws2025-g2,146,TS,4,0,11,42,4,0,0.152,0,high,Full-strength stable squad,ffws2025_g2_labels.csv
+ffws2025-g2,223,BRU,4,0,11,43,4,0,0.232,0,high,BRU remains full strength and stable,ffws2025_g2_labels.csv
+ffws2025-g2,223,FLCN,4,0,11,43,4,0,0.232,0,high,FLCN remains full strength and stable,ffws2025_g2_labels.csv
+ffws2025-g2,223,FX,4,0,11,43,4,0,0.232,0,high,FX remains full strength and stable,ffws2025_g2_labels.csv
+ffws2025-g2,283,FX,4,0,11,43,4,0,0.295,0,high,Full-strength comparison state,ffws2025_g2_labels.csv
+ffws2025-g2,283,RRQ,4,0,11,43,4,0,0.295,0,high,Full-strength comparison state,ffws2025_g2_labels.csv
+ffws2025-g2,344,RRQ,3,1,11,43,4,1,0.358,1,medium,RRQ has one knocked player and only three active; recent combat is visible in the feed,ffws2025_g2_labels.csv
+ffws2025-g2,353,FX,4,0,11,42,4,0,0.368,0,high,Stable full-strength comparison,ffws2025_g2_labels.csv
+ffws2025-g2,353,RRQ,3,1,11,42,3,0,0.368,0,medium,RRQ remains in the same vulnerable state shortly afterwards; no new trigger should fire,ffws2025_g2_labels.csv
+ffws2025-g2,459,AG,0,0,9,36,3,3,0.478,0,high,AG is already eliminated; too late to ask a survival question,ffws2025_g2_labels.csv
+ffws2025-g2,459,BRU,4,0,9,36,4,0,0.478,0,high,Full-strength mid-game negative,ffws2025_g2_labels.csv
+ffws2025-g2,459,FLCN,4,0,9,36,4,0,0.478,0,high,Full-strength mid-game negative,ffws2025_g2_labels.csv
+ffws2025-g2,459,FX,4,0,9,36,4,0,0.478,0,high,Full-strength mid-game negative,ffws2025_g2_labels.csv
+ffws2025-g2,518,EVOS,0,0,9,35,4,4,0.54,0,high,EVOS is already eliminated; outcome is known and no prediction should be generated,ffws2025_g2_labels.csv
+ffws2025-g2,518,FX,4,0,9,35,4,0,0.54,0,high,Stable full-strength squad,ffws2025_g2_labels.csv
+ffws2025-g2,594,BRU,4,0,9,36,4,0,0.619,0,high,Full-strength stable state,ffws2025_g2_labels.csv
+ffws2025-g2,594,FLCN,4,0,9,36,4,0,0.619,0,high,Full-strength stable state,ffws2025_g2_labels.csv
+ffws2025-g2,594,FX,4,0,9,36,4,0,0.619,0,high,Full-strength stable state,ffws2025_g2_labels.csv
+ffws2025-g2,594,RRQ,4,0,9,36,4,0,0.619,0,high,Full-strength stable state,ffws2025_g2_labels.csv
+ffws2025-g2,658,FX,4,0,9,36,4,0,0.685,0,high,Still full strength; repeated normal-state example,ffws2025_g2_labels.csv
+ffws2025-g2,658,HEV,4,0,9,36,4,0,0.685,0,high,Still full strength; routine state,ffws2025_g2_labels.csv
+ffws2025-g2,709,FX,4,0,8,31,4,0,0.739,0,high,Full-strength late-game comparison,ffws2025_g2_labels.csv
+ffws2025-g2,709,GOW,3,0,8,31,4,1,0.739,0,medium,GOW appears to have lost one active player; only a modest transition,ffws2025_g2_labels.csv
+ffws2025-g2,748,FLCN,1,1,7,23,4,3,0.779,1,medium,FLCN appears to have one active and one knocked after a major collapse; very strong prediction-worthy state,ffws2025_g2_labels.csv
+ffws2025-g2,748,FX,4,0,7,23,4,0,0.779,0,high,Full-strength comparison during a highly volatile late-game moment,ffws2025_g2_labels.csv
+ffws2025-g2,748,HEV,3,0,7,23,4,1,0.779,0,medium,HEV is weakened but still has three active; weaker than FLCN and TS at the same moment,ffws2025_g2_labels.csv
+ffws2025-g2,748,TS,2,1,7,23,4,2,0.779,1,medium,TS appears to have two active and one knocked late game; strong prediction-worthy state,ffws2025_g2_labels.csv
+ffws2025-g2,762,FLCN,1,1,7,23,1,0,0.794,0,medium,FLCN remains vulnerable but no new state change occurred; avoids repeatedly asking about the same squad,ffws2025_g2_labels.csv
+ffws2025-g2,762,FX,4,0,7,23,4,0,0.794,0,high,Stable full-strength comparison,ffws2025_g2_labels.csv
+ffws2025-g2,851,BRU,3,1,3,11,4,1,0.886,1,medium,BRU appears to have one knocked player with only three teams remaining; high late-game tension,ffws2025_g2_labels.csv
+ffws2025-g2,851,FX,4,0,3,11,4,0,0.886,0,high,Full-strength final-three comparison,ffws2025_g2_labels.csv
+ffws2025-g2,851,PE,4,0,3,11,4,0,0.886,0,high,Full-strength final-three comparison,ffws2025_g2_labels.csv
+ffws2025-g3,210,BRU,4,0,12,48,4,0,0.186,0,high,Full-strength early-game state,ffws2025_g3_labels.csv
+ffws2025-g3,210,EVOS,4,0,12,48,4,0,0.186,0,high,Full-strength early-game state,ffws2025_g3_labels.csv
+ffws2025-g3,210,FLCN,4,0,12,48,4,0,0.186,0,high,Full-strength early-game state,ffws2025_g3_labels.csv
+ffws2025-g3,210,FX,4,0,12,48,4,0,0.186,0,high,Full-strength early-game state,ffws2025_g3_labels.csv
+ffws2025-g3,344,BRU,4,0,12,44,4,0,0.305,0,high,BRU remains full strength; routine state,ffws2025_g3_labels.csv
+ffws2025-g3,344,FLCN,4,0,12,44,4,0,0.305,0,high,FLCN remains full strength; routine state,ffws2025_g3_labels.csv
+ffws2025-g3,344,FX,4,0,12,44,4,0,0.305,0,high,FX remains full strength; routine state,ffws2025_g3_labels.csv
+ffws2025-g3,404,BRU,4,0,12,45,4,0,0.358,0,high,Stable full-strength state,ffws2025_g3_labels.csv
+ffws2025-g3,404,FX,4,0,12,45,4,0,0.358,0,high,Stable full-strength state,ffws2025_g3_labels.csv
+ffws2025-g3,404,HEV,4,0,12,45,4,0,0.358,0,high,Stable full-strength state,ffws2025_g3_labels.csv
+ffws2025-g3,460,BRU,4,0,12,47,4,0,0.408,0,high,Full-strength comparison state,ffws2025_g3_labels.csv
+ffws2025-g3,460,FX,4,0,12,47,4,0,0.408,0,high,Full-strength comparison state,ffws2025_g3_labels.csv
+ffws2025-g3,460,GOW,3,0,12,47,4,1,0.408,0,medium,GOW appears one player down but still has three active; routine single-player loss,ffws2025_g3_labels.csv
+ffws2025-g3,514,BRU,4,0,12,46,4,0,0.456,0,high,Stable full-strength mid-game state,ffws2025_g3_labels.csv
+ffws2025-g3,514,FX,4,0,12,46,4,0,0.456,0,high,Stable full-strength mid-game state,ffws2025_g3_labels.csv
+ffws2025-g3,514,HEV,4,0,12,46,4,0,0.456,0,high,Stable full-strength mid-game state,ffws2025_g3_labels.csv
+ffws2025-g3,631,FLCN,4,0,12,48,4,0,0.56,0,high,Stable full-strength state,ffws2025_g3_labels.csv
+ffws2025-g3,631,FX,4,0,12,48,4,0,0.56,0,high,Stable full-strength state,ffws2025_g3_labels.csv
+ffws2025-g3,631,RRQ,4,0,12,48,4,0,0.56,0,high,Stable full-strength state,ffws2025_g3_labels.csv
+ffws2025-g3,702,BRU,4,0,12,48,4,0,0.623,0,high,Full-strength comparison while TS is vulnerable,ffws2025_g3_labels.csv
+ffws2025-g3,702,FX,4,0,12,48,4,0,0.623,0,high,Full-strength comparison while TS is vulnerable,ffws2025_g3_labels.csv
+ffws2025-g3,702,TS,2,1,12,48,4,2,0.623,1,medium,TS appears to have two active and one knocked after previously being full strength; strong candidate if bars are confirmed,ffws2025_g3_labels.csv
+ffws2025-g3,767,BRU,4,0,12,47,4,0,0.681,0,high,Full-strength comparison state,ffws2025_g3_labels.csv
+ffws2025-g3,767,E1,2,0,12,47,4,2,0.681,1,medium,E1 appears down to two active players after being full strength; potentially prediction-worthy,ffws2025_g3_labels.csv
+ffws2025-g3,767,FX,4,0,12,47,4,0,0.681,0,high,Full-strength comparison state,ffws2025_g3_labels.csv
+ffws2025-g3,809,BRU,4,0,10,40,4,0,0.718,0,high,Full-strength late-game comparison,ffws2025_g3_labels.csv
+ffws2025-g3,809,FLCN,2,0,10,40,4,2,0.718,1,medium,FLCN appears to have fallen to two active players as the match enters late game,ffws2025_g3_labels.csv
+ffws2025-g3,809,FX,4,0,10,40,4,0,0.718,0,high,Full-strength late-game comparison,ffws2025_g3_labels.csv
+ffws2025-g3,855,BRU,4,0,9,35,4,0,0.759,0,high,Stable full-strength state,ffws2025_g3_labels.csv
+ffws2025-g3,855,FLCN,2,0,9,35,2,0,0.759,0,medium,FLCN remains at roughly the same vulnerable state; no new trigger should fire,ffws2025_g3_labels.csv
+ffws2025-g3,855,FX,4,0,9,35,4,0,0.759,0,high,Stable full-strength state,ffws2025_g3_labels.csv
+ffws2025-g3,880,FLCN,2,1,9,35,2,0,0.781,1,medium,FLCN appears to gain a knocked player while already down to two active; new escalation makes the state interesting again,ffws2025_g3_labels.csv
+ffws2025-g3,880,FX,4,0,9,35,4,0,0.781,0,high,Full-strength comparison during FLCN escalation,ffws2025_g3_labels.csv
+ffws2025-g3,986,FX,4,0,6,20,4,0,0.875,0,high,Full-strength late-game comparison,ffws2025_g3_labels.csv
+ffws2025-g3,986,PE,2,0,6,20,4,2,0.875,1,medium,PE appears down to two active with only six squads remaining; strong late-game survival state,ffws2025_g3_labels.csv
+ffws2025-g3,986,TS,4,0,6,20,4,0,0.875,0,medium,TS appears stable/full strength; useful negative comparison,ffws2025_g3_labels.csv
+ffws2025-g3,1022,BRU,3,0,4,14,4,1,0.907,0,medium,BRU appears down one player but still has three active; not enough alone to justify card,ffws2025_g3_labels.csv
+ffws2025-g3,1022,FX,3,0,4,14,4,1,0.907,0,medium,FX appears down one player late but still has three active; weaker than two-player states,ffws2025_g3_labels.csv
+ffws2025-g3,1073,BRU,2,1,4,13,3,1,0.952,1,medium,BRU appears at two active plus one knocked in the final four; very strong prediction-worthy state,ffws2025_g3_labels.csv
+ffws2025-g3,1073,FX,3,0,4,13,3,0,0.952,0,medium,FX remains stable at three active; no fresh escalation,ffws2025_g3_labels.csv
+ffws2025-g5,243,AG,4,0,12,47,4,0,0.239,0,high,Full-strength stable squad,ffws2025_g5_labels.csv
+ffws2025-g5,243,BRU,4,0,12,47,4,0,0.239,0,high,Full-strength stable squad,ffws2025_g5_labels.csv
+ffws2025-g5,243,FX,4,0,12,47,4,0,0.239,0,high,Full-strength stable squad,ffws2025_g5_labels.csv
+ffws2025-g5,243,HEV,3,0,12,47,4,1,0.239,0,high,One-player loss but still three active; routine comparison example,ffws2025_g5_labels.csv
+ffws2025-g5,243,RRQ,4,0,12,47,4,0,0.239,0,high,Full-strength stable squad,ffws2025_g5_labels.csv
+ffws2025-g5,450,E1,3,0,12,44,4,1,0.442,0,high,Three active after one-player loss; not strong enough to interrupt,ffws2025_g5_labels.csv
+ffws2025-g5,450,FX,4,0,12,44,4,0,0.442,0,high,Stable full-strength negative example,ffws2025_g5_labels.csv
+ffws2025-g5,450,HEV,2,0,12,44,3,1,0.442,1,high,HEV down to two active players; clear vulnerable state,ffws2025_g5_labels.csv
+ffws2025-g5,450,R7,3,0,12,44,4,1,0.442,0,high,Three active after one-player loss; routine state,ffws2025_g5_labels.csv
+ffws2025-g5,450,RRQ,4,0,12,44,4,0,0.442,0,high,Stable full-strength negative example,ffws2025_g5_labels.csv
+ffws2025-g5,510,AG,4,0,11,41,4,0,0.501,0,high,Stable full-strength comparison,ffws2025_g5_labels.csv
+ffws2025-g5,510,E1,2,0,11,41,3,1,0.501,1,high,E1 now has only two active players,ffws2025_g5_labels.csv
+ffws2025-g5,510,FX,4,0,11,41,4,0,0.501,0,high,Stable full-strength comparison,ffws2025_g5_labels.csv
+ffws2025-g5,510,R7,3,0,11,41,3,0,0.501,0,high,R7 remains stable at three active,ffws2025_g5_labels.csv
+ffws2025-g5,690,EVOS,3,0,11,39,4,1,0.678,0,high,Three active after losing one player,ffws2025_g5_labels.csv
+ffws2025-g5,690,GOW,3,0,11,39,4,1,0.678,0,high,Three active; moderate but not strong enough for card,ffws2025_g5_labels.csv
+ffws2025-g5,690,R7,2,0,11,39,4,2,0.678,1,medium,R7 appears to have fallen sharply to two active; verify bars once more,ffws2025_g5_labels.csv
+ffws2025-g5,690,RRQ,4,0,11,39,4,0,0.678,0,high,Full-strength late-game negative example,ffws2025_g5_labels.csv
+ffws2025-g5,750,BRU,3,1,10,37,4,1,0.737,1,high,Three active plus one knocked late game; worth surfacing,ffws2025_g5_labels.csv
+ffws2025-g5,750,EVOS,2,1,10,37,3,1,0.737,1,high,Two active plus one knocked; strong prediction-worthy state,ffws2025_g5_labels.csv
+ffws2025-g5,750,FX,3,0,10,37,4,1,0.737,0,high,Three active; useful negative against EVOS at same moment,ffws2025_g5_labels.csv
+ffws2025-g5,750,RRQ,4,0,10,37,4,0,0.737,0,high,Full-strength comparison at same late-game timestamp,ffws2025_g5_labels.csv
+ffws2025-g5,810,AG,3,0,7,27,4,1,0.796,0,high,Three active; not enough change for interruption,ffws2025_g5_labels.csv
+ffws2025-g5,810,BRU,4,0,7,27,3,0,0.796,0,high,Strong/stable state,ffws2025_g5_labels.csv
+ffws2025-g5,810,FLCN,4,0,7,27,4,0,0.796,0,high,Full-strength squad despite late-game conditions,ffws2025_g5_labels.csv
+ffws2025-g5,810,PE,2,0,7,27,3,1,0.796,1,high,Two active players in late game; viable survival question,ffws2025_g5_labels.csv
+ffws2025-g5,810,RRQ,4,0,7,27,4,0,0.796,0,high,Full-strength stable late-game negative,ffws2025_g5_labels.csv
+ffws2025-g5,810,TS,3,0,7,27,4,1,0.796,0,high,Three active; routine late-game loss,ffws2025_g5_labels.csv
+ffws2025-g5,873,AG,3,0,6,20,3,0,0.858,0,high,Stable three-player state,ffws2025_g5_labels.csv
+ffws2025-g5,873,BRU,3,0,6,20,4,1,0.858,0,high,Only one-player loss; weaker than competing candidate states,ffws2025_g5_labels.csv
+ffws2025-g5,873,FLCN,2,2,6,20,4,2,0.858,1,high,Extremely strong state: four to two active with two knocked in late game,ffws2025_g5_labels.csv
+ffws2025-g5,873,PE,2,0,6,20,2,0,0.858,0,high,Already stable at two active; no new state change,ffws2025_g5_labels.csv
+ffws2025-g5,873,RRQ,4,0,6,20,4,0,0.858,0,high,Full-strength late-game negative example,ffws2025_g5_labels.csv
+ffws2025-g5,873,TS,2,0,6,20,3,1,0.858,1,high,Two active players with only six teams remaining,ffws2025_g5_labels.csv
+ffws2025-g6,181,BRU,4,0,12,45,4,0,0.182,0,high,Full-strength stable squad at 03:01,ffws2025_g6_labels.csv
+ffws2025-g6,181,FLCN,4,0,12,45,4,0,0.182,0,high,Full-strength stable squad at 03:01,ffws2025_g6_labels.csv
+ffws2025-g6,181,FX,4,0,12,45,4,0,0.182,0,high,Full-strength stable squad at 03:01,ffws2025_g6_labels.csv
+ffws2025-g6,181,PE,4,0,12,45,4,0,0.182,0,high,Full-strength stable squad at 03:01,ffws2025_g6_labels.csv
+ffws2025-g6,181,RRQ,4,0,12,45,4,0,0.182,0,high,Full-strength stable squad at 03:01,ffws2025_g6_labels.csv
+ffws2025-g6,181,TS,4,0,12,45,4,0,0.182,0,high,Full-strength stable squad at 03:01,ffws2025_g6_labels.csv
+ffws2025-g6,301,AG,0,0,10,40,4,4,0.303,0,high,AG already eliminated by 05:01; not a valid new survival-question anchor,ffws2025_g6_labels.csv
+ffws2025-g6,301,EVOS,0,0,10,40,4,4,0.303,0,high,EVOS already eliminated by 05:01; not a valid new survival-question anchor,ffws2025_g6_labels.csv
+ffws2025-g6,391,E1,3,0,10,39,4,1,0.393,0,medium,E1 appears to have three active players; routine one-player loss,ffws2025_g6_labels.csv
+ffws2025-g6,391,HEV,3,0,10,39,4,1,0.393,0,medium,HEV appears to have three active players; routine one-player loss,ffws2025_g6_labels.csv
+ffws2025-g6,391,R7,4,0,10,39,4,0,0.393,0,high,Full-strength stable squad around 06:31,ffws2025_g6_labels.csv
+ffws2025-g6,661,E1,4,0,10,38,4,0,0.665,0,high,Full-strength stable comparison at same timestamp,ffws2025_g6_labels.csv
+ffws2025-g6,661,FLCN,2,0,10,38,4,2,0.665,1,high,FLCN down to two active players by 11:01; strong prediction-worthy state,ffws2025_g6_labels.csv
+ffws2025-g6,661,RRQ,4,0,10,38,4,0,0.665,0,high,Full-strength stable comparison at same timestamp,ffws2025_g6_labels.csv
+ffws2025-g6,691,E1,4,0,10,38,4,0,0.695,0,high,Stable full-strength negative example,ffws2025_g6_labels.csv
+ffws2025-g6,691,FLCN,2,0,10,38,2,0,0.695,0,high,Still at two active players; no new state change so do not repeat the card,ffws2025_g6_labels.csv
+ffws2025-g6,811,FX,3,0,10,38,4,1,0.816,0,medium,FX appears to have lost one player by 13:31; moderate but not strong enough alone,ffws2025_g6_labels.csv
+ffws2025-g6,841,BRU,2,2,10,38,4,2,0.846,1,high,BRU has roughly two active and two knocked during a late-game fight; strong question-worthy state,ffws2025_g6_labels.csv
+ffws2025-g6,841,RRQ,4,0,10,38,4,0,0.846,0,high,Full-strength comparison while BRU is under pressure,ffws2025_g6_labels.csv
+ffws2025-g6,871,PE,1,2,7,22,3,2,0.876,1,medium,PE visibly has multiple downed players with only seven teams remaining; very strong vulnerable state,ffws2025_g6_labels.csv
+ffws2025-g6,871,R7,4,0,7,22,4,0,0.876,0,high,Full-strength comparison at the same late-game timestamp,ffws2025_g6_labels.csv
+ffws2025-g6,909,FLCN,2,0,5,18,2,0,0.915,0,high,FLCN remains at two active; stable vulnerable state but no newly observed drop,ffws2025_g6_labels.csv
+ffws2025-g6,909,FX,4,0,5,18,4,0,0.915,0,high,Full-strength late-game negative example,ffws2025_g6_labels.csv
+ffws2025-g6,949,R7,2,0,5,16,4,2,0.955,1,medium,Two R7 players are removed in the visible fight around 15:49; candidate high-interest collapse,ffws2025_g6_labels.csv
+ffws2025-g7,151,AG,4,0,12,48,4,0,0.152,0,high,02:31 screenshot: full-strength stable squad,ffws2025_g7_labels.csv
+ffws2025-g7,151,BRU,4,0,12,48,4,0,0.152,0,high,02:31 screenshot: full-strength stable squad,ffws2025_g7_labels.csv
+ffws2025-g7,151,FLCN,4,0,12,48,4,0,0.152,0,high,02:31 screenshot: full-strength stable squad,ffws2025_g7_labels.csv
+ffws2025-g7,151,FX,4,0,12,48,4,0,0.152,0,high,02:31 screenshot: full-strength stable squad,ffws2025_g7_labels.csv
+ffws2025-g7,151,PE,4,0,12,48,4,0,0.152,0,high,02:31 screenshot: full-strength stable squad,ffws2025_g7_labels.csv
+ffws2025-g7,151,RRQ,4,0,12,48,4,0,0.152,0,high,02:31 screenshot: full-strength stable squad,ffws2025_g7_labels.csv
+ffws2025-g7,332,E1,2,0,12,44,4,2,0.335,1,medium,05:32 screenshot: two E1 players are eliminated in the feed; panel appears to show E1 reduced to two active,ffws2025_g7_labels.csv
+ffws2025-g7,362,GOW,2,2,12,43,4,2,0.365,1,medium,06:02 screenshot: GOW row appears heavily weakened with roughly two active and two knocked,ffws2025_g7_labels.csv
+ffws2025-g7,452,EVOS,3,0,12,43,4,1,0.456,0,medium,07:32 screenshot: EVOS appears to have lost one player; routine one-player drop,ffws2025_g7_labels.csv
+ffws2025-g7,542,RRQ,4,0,12,43,4,0,0.546,0,high,09:02 screenshot: RRQ remains full strength; stable negative example,ffws2025_g7_labels.csv
+ffws2025-g7,602,FX,4,0,12,45,4,0,0.607,0,high,10:02 screenshot: FX remains full strength; stable negative example,ffws2025_g7_labels.csv
+ffws2025-g7,692,PE,1,2,11,40,3,2,0.698,1,medium,11:32 screenshot: kill feed shows two PE players knocked; panel appears to show one active and two knocked,ffws2025_g7_labels.csv
+ffws2025-g7,722,FLCN,4,0,11,40,4,0,0.728,0,high,12:02 screenshot: FLCN appears full strength; stable comparison,ffws2025_g7_labels.csv
+ffws2025-g7,782,FLCN,2,0,9,32,3,1,0.788,1,medium,13:02 screenshot: FLCN has suffered multiple losses and appears down to about two active players,ffws2025_g7_labels.csv
+ffws2025-g7,812,FX,1,2,8,28,4,3,0.819,1,medium,13:32 screenshot: FX row shows a highly vulnerable state; Bops is knocked by zone and only about one active remains,ffws2025_g7_labels.csv
+ffws2025-g7,832,RRQ,4,0,8,25,4,0,0.839,0,high,13:52 screenshot: RRQ remains full strength while other squads collapse,ffws2025_g7_labels.csv
+ffws2025-g7,872,RRQ,4,0,7,24,4,0,0.879,0,high,14:32 screenshot: RRQ remains stable at full strength; useful late-game negative,ffws2025_g7_labels.csv
+ffws2025-g7,902,FLCN,2,0,5,14,2,0,0.909,1,medium,15:02 screenshot: FLCN appears to have only two active players in the final five,ffws2025_g7_labels.csv
+ffws2025-g7,962,BRU,4,0,3,9,4,0,0.97,0,high,16:02 top overlay: BRU remains full strength; stable final-three negative,ffws2025_g7_labels.csv
+ffws2025-g7,962,RRQ,2,0,3,9,3,1,0.97,1,medium,16:02 top overlay: RRQ appears reduced to two active players with three teams remaining,ffws2025_g7_labels.csv
+ffws2025-g7,992,AG,1,0,2,5,3,2,1.0,1,high,"16:32 final two: global counter shows 5 players; BRU has four, so AG has one active player",ffws2025_g7_labels.csv
+ffws2025-g7,992,BRU,4,0,2,5,4,0,1.0,0,high,16:32 final two: BRU visibly has four active players; full-strength comparison,ffws2025_g7_labels.csv

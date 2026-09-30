@@ -1,0 +1,24 @@
+match_id,time_s,squad,active,knocked,teams_remaining,players_remaining,previous_active,recent_active_drop,match_progress,worth_asking,label_confidence,notes
+ffws2025-g1,161,EVOS,4,0,12,47,4,0,0.174,0,high,Full-strength stable squad early in the match
+ffws2025-g1,161,FX,4,0,12,47,4,0,0.174,0,high,Full-strength stable squad early in the match
+ffws2025-g1,161,AG,3,0,12,47,4,1,0.174,0,medium,AG has lost one active player early; not enough to justify interrupting the viewer
+ffws2025-g1,461,BRU,4,0,11,44,4,0,0.498,0,high,Full-strength stable squad around mid game
+ffws2025-g1,461,FX,4,0,11,44,4,0,0.498,0,high,Full-strength stable squad around mid game
+ffws2025-g1,461,FLCN,4,0,11,44,4,0,0.498,0,high,Full-strength stable squad around mid game
+ffws2025-g1,521,AG,2,1,11,42,4,2,0.563,1,medium,AG falls from full strength to two active; at least one knock bar is visible. Strong prediction-worthy transition
+ffws2025-g1,521,RRQ,4,0,11,42,4,0,0.563,0,high,Full-strength squad at the same moment AG becomes vulnerable
+ffws2025-g1,521,EVOS,4,0,11,42,4,0,0.563,0,high,Full-strength comparison at the same moment
+ffws2025-g1,551,HEV,2,0,10,38,4,2,0.596,1,high,HEV drops from four active to two active; strong survival-question state
+ffws2025-g1,551,EVOS,4,0,10,38,4,0,0.596,0,high,Full-strength comparison while HEV is vulnerable
+ffws2025-g1,551,FX,4,0,10,38,4,0,0.596,0,high,Full-strength comparison while HEV is vulnerable
+ffws2025-g1,581,HEV,2,0,10,38,2,0,0.628,0,high,HEV remains at two active but this is now an unchanged state; avoid repeatedly asking about the same squad
+ffws2025-g1,581,RRQ,4,0,10,38,4,0,0.628,0,high,Stable full-strength squad
+ffws2025-g1,611,EVOS,4,0,10,38,4,0,0.661,0,high,Full-strength stable squad
+ffws2025-g1,611,HEV,2,0,10,38,2,0,0.661,0,high,Still two active with no new transition; useful negative example showing vulnerability alone should not repeatedly trigger
+ffws2025-g1,745,EVOS,4,0,8,32,4,0,0.805,0,high,Full-strength late-game squad
+ffws2025-g1,745,FLCN,4,0,8,32,4,0,0.805,0,high,Full-strength late-game squad
+ffws2025-g1,745,FX,4,0,8,32,4,0,0.805,0,high,Full-strength late-game squad
+ffws2025-g1,814,BRU,4,0,6,24,4,0,0.88,0,high,Only six teams remain but BRU is still full strength; late game alone should not trigger a prediction
+ffws2025-g1,814,FLCN,4,0,6,24,4,0,0.88,0,high,Full-strength state with six teams remaining
+ffws2025-g1,864,FX,4,0,5,20,4,0,0.934,0,high,Very late game but still full strength; useful negative against naive late-game triggering
+ffws2025-g1,864,BRU,4,0,5,20,4,0,0.934,0,high,Very late game and full strength; no unusual state change

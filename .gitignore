@@ -1,0 +1,9 @@
+.venv/
+data/raw/
+frames/
+*.mp4
+__pycache__/
+*.pyc
+.env
+.DS_Store
+!app/match.mp4

@@ -1,0 +1,96 @@
+{
+  "model_type": "L2-regularised logistic regression",
+  "target": "worth_asking",
+  "features": [
+    "active",
+    "knocked",
+    "teams_remaining",
+    "players_remaining",
+    "recent_active_drop",
+    "match_progress"
+  ],
+  "training_matches": [
+    "ffws2025-g1",
+    "ffws2025-g2",
+    "ffws2025-g3",
+    "ffws2025-g5",
+    "ffws2025-g6",
+    "ffws2025-g7"
+  ],
+  "training_rows": 178,
+  "positive_rows": 32,
+  "positive_prevalence": 0.1797752808988764,
+  "validation": {
+    "method": "LeaveOneGroupOut grouped by match_id",
+    "folds": [
+      {
+        "held_out_match": "ffws2025-g1",
+        "test_rows": 23,
+        "balanced_accuracy": 0.9523809523809523,
+        "average_precision": 1.0,
+        "brier_score": 0.03527369347812841,
+        "training_prevalence": 0.1935483870967742
+      },
+      {
+        "held_out_match": "ffws2025-g2",
+        "test_rows": 35,
+        "balanced_accuracy": 0.935483870967742,
+        "average_precision": 0.6428571428571428,
+        "brier_score": 0.10217751578923992,
+        "training_prevalence": 0.1958041958041958
+      },
+      {
+        "held_out_match": "ffws2025-g3",
+        "test_rows": 40,
+        "balanced_accuracy": 0.9852941176470589,
+        "average_precision": 1.0,
+        "brier_score": 0.02442970738009682,
+        "training_prevalence": 0.18840579710144928
+      },
+      {
+        "held_out_match": "ffws2025-g5",
+        "test_rows": 34,
+        "balanced_accuracy": 0.8557692307692308,
+        "average_precision": 0.8895833333333334,
+        "brier_score": 0.0733516031512925,
+        "training_prevalence": 0.16666666666666666
+      },
+      {
+        "held_out_match": "ffws2025-g6",
+        "test_rows": 24,
+        "balanced_accuracy": 0.9,
+        "average_precision": 0.8166666666666667,
+        "brier_score": 0.12447046504981962,
+        "training_prevalence": 0.18181818181818182
+      },
+      {
+        "held_out_match": "ffws2025-g7",
+        "test_rows": 22,
+        "balanced_accuracy": 0.9375,
+        "average_precision": 1.0,
+        "brier_score": 0.028650045598782207,
+        "training_prevalence": 0.15384615384615385
+      }
+    ],
+    "mean_balanced_accuracy": 0.9277380286274974,
+    "mean_average_precision": 0.8915178571428571,
+    "pooled_brier_score": 0.0644732751086351,
+    "baseline_brier_score": 0.1499867575929426
+  },
+  "ranking": {
+    "timestamp_groups": 68,
+    "model_top_positive_rate": 0.4265,
+    "naive_fewest_active_positive_rate": 0.4265,
+    "model_lift_claimed": false,
+    "important_note": "Historical rows contain a sparse, human-preselected squad subset at each timestamp; this comparison is descriptive rather than a full 12-squad ranking evaluation, and does not establish model superiority over the naive rule."
+  },
+  "standardized_coefficients": {
+    "active": -1.635464,
+    "knocked": 1.266462,
+    "teams_remaining": 0.626764,
+    "players_remaining": -0.341953,
+    "recent_active_drop": 0.719848,
+    "match_progress": 0.939781
+  },
+  "future_information_used_in_features": false
+}
